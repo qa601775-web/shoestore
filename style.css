@@ -1,0 +1,281 @@
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+.maindiv {
+    background-color: #ffd6d6;
+    padding: 20px 7%;
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.nav1 {
+    width: 200px;
+}
+
+.nav1 fieldset,
+.footer-brand fieldset {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+}
+
+.nav1 span {
+    color: orangered;
+}
+
+.material-symbols-outlined {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    min-height: 500px;
+}
+
+.hero-content {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 55px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.hero-content button,
+.div5 button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 35px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+    padding: 50px 5%;
+}
+
+.div2 img {
+    width: 280px;
+    height: 280px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+
+.products {
+    padding: 40px 5%;
+}
+
+.products > h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.div3,
+.div4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+    height: auto;
+}
+
+.product-card {
+    width: 230px;
+    padding: 12px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.product-card h3 {
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.product-card p {
+    color: orangered;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+
+.div5 {
+    background-color: #ffd6d6;
+    padding: 60px 20px;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.div5 h1 {
+    font-size: 45px;
+    line-height: 1.2;
+    margin: 15px 0;
+}
+
+.div5 button {
+    margin-top: 20px;
+}
+
+
+.reviews {
+    padding: 50px 5%;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card1,
+.card2,
+.card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 10px #ccc;
+    padding: 25px;
+    border: 1px solid #ddd;
+    background-color: white;
+    width: 280px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card1 p,
+.card2 p,
+.card3 p {
+    line-height: 1.7;
+}
+
+.card1 img,
+.card2 img,
+.card3 img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.card1 h2,
+.card2 h2,
+.card3 h2 {
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+
+.logos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    padding: 40px 20px;
+}
+
+.logos p {
+    color: #555;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.fdiv {
+    background-color: black;
+    color: whitesmoke;
+    padding: 40px 5% 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.footer-app,
+.footer-brand,
+.footer-links {
+    flex: 1;
+    min-width: 180px;
+    text-align: center;
+}
+
+.footer-app p,
+.footer-brand p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
